@@ -9,7 +9,7 @@ import MyOrder from '../containers/MyOrder'
 const Header = () => {
 	const [toggle, setToggle] = useState(false);
 	const {state} = useContext(AppContext)
-	const [toggleOrders, setToggleOrders] = useState(false)
+	const [toggleOrders, setToggleOrders] = useState(false);
 
 	const handleToggle = () => {
 		setToggle(!toggle);
