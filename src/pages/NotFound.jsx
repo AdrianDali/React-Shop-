@@ -4,7 +4,12 @@ const NotFound = () => {
 	return (
 		<div>
 			No encontrado, error 404.
-		</div>
+		
+			<h1>
+			kbdfkbkbdf not foundAA
+				</h1>
+				</div>
+	
 	);
 }
 
